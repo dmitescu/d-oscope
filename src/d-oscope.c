@@ -11,15 +11,15 @@
 #include <util/delay.h>
 
 //Configuration
-#include "init.h"
-#include "defines.h"
-#include "allocations.h"
+#include "../include/init.h"
+#include "../include/defines.h"
+#include "../include/allocations.h"
 
 //UI modules
-#include "comm.h"
-//#include "ui/ks0713.h"
-//#include "ui/lcd_lib.h"
-//#include "ui/font5x7.h"
+#include "../include/comm.h"
+//#include "../include/ui/ks0713.h"
+//#include "../include/ui/lcd_lib.h"
+//#include "../include/ui/font5x7.h"
 
 //Oscilloscope modules
 

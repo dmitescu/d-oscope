@@ -3,7 +3,7 @@
  * Mitescu George Dan <mitescugeorgedan @ gmail.com>
  * Distributed under MIT license
  */
-#include "../init.h"
+#include "../../include/init.h"
 // =============================
 // USARTD1 initialization
 void usartd1_init(void)

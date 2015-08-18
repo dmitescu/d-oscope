@@ -4,7 +4,7 @@
  * Distributed under MIT license
  */
 
-#include "../init.h"
+#include "../../include/init.h"
 
 // Disable counter 1
 void tc1_disable(TC1_t *ptc)

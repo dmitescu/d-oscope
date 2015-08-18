@@ -4,7 +4,7 @@
  * Distributed under MIT license
  */
 
-#include "../init.h"
+#include "../../include/init.h"
 
 // =============================
 // RTC initialization

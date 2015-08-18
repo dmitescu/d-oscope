@@ -4,8 +4,8 @@
  * Distributed under MIT license
  */
 
-#include "../init.h"
-#include "../allocations.h"
+#include "../../include/init.h"
+#include "../../include/allocations.h"
 
 // =============================
 // Variable initialization
@@ -34,8 +34,6 @@ void write_eeprom(void){
 void variable_init(void)
 {  
   if(volume>100){volume=100;}
-  mode=mode_stop;
-  smode=0;
   if(freq_wave>=704){freq_wave=124;} //1000hz
   if(level_wave>=30){level_wave=8;}// 300mv
   if(type_wave>=4){etype_wave=0;} // sinus ,

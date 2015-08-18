@@ -4,7 +4,7 @@
  * Distributed under MIT license
  */
 
-#include "../init.h"
+#include "../../include/init.h"
 
 #define ADC_CURRLIMIT_NO_gc (0x00 << 5)
 
