@@ -6,4 +6,4 @@ d_oscope_o_SOURCES = d-oscope.c	\
 		init/init_usart.c init/init_vars.c \
 		ui/comm.c
 
-SUBDIRS = init ui
+#SUBDIRS = init ui
