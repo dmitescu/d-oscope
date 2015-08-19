@@ -8,6 +8,7 @@ AC_CONFIG_SRCDIR([include/comm.h])
 AC_CONFIG_HEADERS([config.h])
 
 # Checks for programs.
+AC_SUBST([AM_CFLAGS], [-mmcu=atxmega128a4u])
 AC_PROG_CC([avr-gcc])
 
 # Checks for libraries.
